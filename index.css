@@ -1,0 +1,210 @@
+html,
+body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+}
+
+.image {
+    min-height: 650px;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url('https://images.pexels.com/photos/1126374/pexels-photo-1126374.jpeg') center/cover;
+    opacity: 0.9;
+    color: white;
+}
+
+.mybtn {
+    background-color: #2d5a27;
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.vision {
+    width: 800px;
+}
+
+.begin {
+    background-color: #f2f4f1;
+}
+
+.place {
+    height: 200px;
+}
+
+.place:hover {
+    transform: translateY(-10px);
+    border-color: green;
+}
+
+.join {
+    text-align: center;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.inner {
+    width: 300px;
+    height: 80px;
+    background-color: #f9fbf9;
+}
+
+.inner:hover {
+    transform: translateY(-10px);
+}
+
+.service {
+    height: 300px;
+    background: white;
+    border-radius: 16px;
+    box-shadow:
+        0 6px 12px rgba(0, 0, 0, 0.05),
+        0 18px 40px rgba(0, 0, 0, 0.18);
+}
+
+.service:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    transform: translateY(-6px);
+}
+
+.services {
+    background-color: #f2f4f1;
+    padding: 40px;
+}
+
+.heal {
+    border: 1px solid lightgrey;
+    padding: 30px;
+    margin: 10px;
+}
+
+.step-box {
+    background: #ffffff;
+    border-left: 5px solid #2f7d25;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(60, 206, 12, 0.1);
+}
+
+.step-box h4 {
+    color: #2f7d25;
+    margin-bottom: 10px;
+}
+
+.step-box p {
+    color: #555;
+    font-size: 15px;
+}
+
+.healing {
+    border: 1px solid lightgrey;
+    margin: 10px;
+}
+
+.years {
+    background-color: green;
+    padding: 30px;
+}
+
+.form-control,
+.form-select {
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #444;
+}
+
+.site-footer {
+    background: #2d5a27;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.site-footer p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+
+    .image {
+        min-height: auto;
+        padding: 60px 15px;
+        text-align: center;
+    }
+
+    .image b {
+        font-size: 32px !important;
+    }
+
+    .image p {
+        font-size: 16px !important;
+    }
+
+    .mybtn {
+        width: 150px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .carousel-item h1 {
+        font-size: 24px;
+    }
+
+    .vision {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .begin .p-5 {
+        padding: 20px !important;
+    }
+
+    .place {
+        height: auto;
+    }
+
+    .join {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .inner {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .join .row {
+        margin-left: 0 !important;
+    }
+
+    .service {
+        height: auto;
+    }
+
+    .row.d-flex.flex-nowrap {
+        flex-wrap: wrap !important;
+    }
+
+    .healing {
+        margin: 10px 0;
+    }
+
+    .years .col-md-3 {
+        margin-bottom: 20px;
+    }
+
+    .form-control,
+    .form-select {
+        font-size: 15px;
+    }
+}
